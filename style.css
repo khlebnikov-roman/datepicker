@@ -1,0 +1,74 @@
+.table {
+    max-width: 300px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 8px;
+    text-align: center;
+    color: rgba(69, 80, 95, 0.445);
+  }
+  
+.day {
+  min-width: 32px;
+  min-height: 32px;
+  line-height: 32px;
+  text-align: center;
+  font-weight: 400;
+  cursor: pointer;
+  color: rgb(30, 30, 30);
+  border-radius: 4px;
+}
+  
+  .day:hover {
+    background-color: rgb(229, 233, 238);
+  }
+  
+  #calendar {
+    max-width: 300px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 8px 30px rgba(19, 24, 31, 0.08);
+    border-radius: 8px;
+    font-family: Graphik LCG;
+  }
+  
+  .month {
+    position: relative;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: Graphik LCG;
+    font-size: 15px;
+    background-color: rgb(229, 233, 238);
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    transition: ease-out 0.1s;
+  }
+  
+  .month:hover {
+    background-color: rgb(213, 219, 226);
+    transition: ease-out 0.1s;
+  }
+
+  .year {
+    position: relative;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: Graphik LCG;
+    font-size: 15px;
+    background-color: rgb(229, 233, 238);
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    transition: ease-out 0.1s;
+  }
+
+  .year:hover {
+    background-color: rgb(213, 219, 226);
+    transition: ease-out 0.1s;
+  }
+  
+  select {
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    appearance: none;
+  }
